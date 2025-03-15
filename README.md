@@ -1,1 +1,1 @@
-# MusicPlayer_APP I have successfully completed desigining of this music player app by using html , css , java script
+# Music_Player_APP I have Successfully Designed music player app

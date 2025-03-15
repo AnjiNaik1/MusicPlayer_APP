@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <img src="pic.jpeg" alt="Profile Picture" class="profile-pic">
+        <h2><span class="blue">AI</span><span class="white">S</span><span class="green">AN</span></h2>
+        <p id="song-title">Song 1</p>
+        <audio id="audio" src="songs/s1.mp3"></audio>
+        <div class="controls">
+            <button id="prev">⏪</button>
+            <button id="play">▶</button>
+            <button id="next">⏩</button>
+        </div>
+        <ul id="playlist"></ul>
+        <button id="shuffle">🔀</button>
+        <button id="repeat">🔁</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
