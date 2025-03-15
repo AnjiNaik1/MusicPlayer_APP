@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a1a, #444);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: black;
+    padding: 20px;
+    border-radius: 50%;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.blue { color: blue; }
+.white { color: white; }
+.green { color: green; }
+
+.controls button {
+    background: gray;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    padding: 5px;
+    cursor: pointer;
+    background: #222;
+    margin: 5px 0;
+}
